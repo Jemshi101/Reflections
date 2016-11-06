@@ -24,5 +24,11 @@ the diagrams show the exact structure of the repository with all the branches an
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+merging a branch into another makes the former branch merge into the latter and we can continue developing in the latter branch. This will make the changes made in the former branch, merge in to the latter branch.
+The diagrams represent the branching and merging of the branches and its changes through commits.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+Automatic merging does the merging by analysing the code by itself while manual merging makes us to select or change the code required to be changed.
+Former is faster and latter requires a supervision while merging because one must not loose the change made by the other while merging.
