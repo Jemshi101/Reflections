@@ -15,7 +15,11 @@ by using staging area, we can make sure that all the files that have changes are
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+When we want to experiment a new feature, or make a new version, or develop in a new language or for a new language, branching would be really helpful. With branched we could keep track of all the changes we make in different branches.
+
 How do the diagrams help you visualize the branch structure?
+
+the diagrams show the exact structure of the repository with all the branches and the commits they have, giving us the ability to play around with the code.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
