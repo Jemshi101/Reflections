@@ -1,10 +1,16 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+the initialisation process makes the git repository for the folder that we are in and creates a hidden folder named .git in the folder which contains the metadata for the git repository. 
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+working directory is the place where we do our experiments and check whether our code works or not. If we were able to get the code working we can add the corresponding files to the staging area, which acts as an intermediate stage between the repository, which is where we store the final codes per commit. we can add multiple files related to the logical change that we want to commit in the staging area before we make a commit.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+by using staging area, we can make sure that all the files that have changes are included in the logical change are added for committing. 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
